@@ -1,0 +1,325 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+.font{font-family: 'Poiret One', cursive;}
+body{
+    margin: 0px;
+    font-family: 'Poiret One', cursive;
+    position: relative;
+    z-index: -1;
+    background-color: rgb(236, 188, 188);
+}
+#menucontainer{
+    width: 100%;
+}
+#logocontainer{
+    height: 127px;
+    width: 236px;
+    float: left;
+    position: fixed;
+    top: 0;
+}
+#logo{
+    height: 127px;
+    width: 555px;
+    float: left;
+}
+#menu{
+    height: 127px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 555px;
+    list-style-type: none;
+}
+.menuitem{
+    float:left;
+    width:145px;
+    height: 127px;
+    background-size: 100%;
+}
+
+.first{background-image: url(../img/menu/2.png);} .first:hover{background-image: url(../img/menu/22.png);}
+.second{background-image: url(../img/menu/3.png);} .second:hover{background-image: url(../img/menu/33.png);}
+.third{background-image: url(../img/menu/4.png);} .third:hover{background-image: url(../img/menu/44.png);}
+.fourth{background-image: url(../img/menu/5.png);} .fourth:hover{background-image: url(../img/menu/55.png);}
+.fifth{background-image: url(../img/menu/6.png);} .fifth:hover{background-image: url(../img/menu/66.png);}
+
+.menu{
+	display: inline;
+    height: 127px;
+}
+
+/* slides start */
+
+#slider{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    top: -10px;
+}
+.slides{
+    width: 100%;
+    list-style-type: none;
+}
+#slide1{
+    width: 100%;
+}
+.title{
+    width: 121px;
+    margin: auto;
+    padding: 44px;
+    padding-bottom: 0;
+}
+
+
+
+/* about us start */
+
+#aboutus{
+    width: 100%;
+    height: 518px;
+    background-image: url(../img/pinkbackground-01-01.png);
+    background-size: 100%;
+    position: relative;
+    z-index: -1;
+}
+#pinklogo{
+    width: 147px;
+    margin: auto;
+    margin-top: 23px;
+}
+#aboutusdescription{
+    width: 434px;
+    height: 130px;
+    margin: 32px auto;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 49px;
+    color: white;
+    padding: 39px;
+    text-align: center;
+}
+
+/* services start */
+
+#services{
+    background-image: url(../img/bluebackground-01.png);
+    width: 100%;
+    height: 518px;
+    background-size: 100%;
+    position: relative;
+    z-index: -1;
+}
+#servicescirclesfirstrow{
+    width: 960px;
+    margin: 0 auto;
+}
+#servicescirclessecondrow{
+    width: 960px;
+    margin: 0 auto;
+}
+.servicecircle{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 15px 69px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 90px;
+    color: white;
+    padding: 39px;
+    text-align: center;
+    background-color: rgba(64, 60, 117, 0.51);
+}
+.servicetitle{
+    font-size: 15px;
+    margin: 0;
+}
+.servicedescription{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio start */
+
+#portfolio{
+    width: 100%;
+    height: 518px;
+    background-image: url(../img/pinkbackground-01-01.png);
+    background-size: 100%;
+    position: relative;
+    z-index: -1;
+}
+#PortfolioCircleFirstRow{
+    width: 960px;
+    margin: 0 auto;
+}
+#PortfolioCircleSecondRow{
+    width: 960px;
+    margin: 0 auto;
+}
+.portfoliocircles{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px 31px;
+    border-radius: 90px;
+    color: white;
+    padding: 39px;
+    text-align: center;
+    background-color: 82163F;
+    background-image: url(../img/portfolio/website%20image-02.png);
+
+}
+.portfoliocircles:hover{
+    background-image: url(../img/portfolio/website%20image%20hover-02.png);
+}
+.portfoliobtn{
+    border: 1.4px solid white;
+    width: 87px;
+    height: 22px;
+    border-radius: 7px;
+    background-color: transparent;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.portfoliobtn:hover{
+    background-color: rgba(118, 118, 118, 0.63);
+}
+.btnlink{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* contact us start */
+
+
+#contactus{
+    width: 100%;
+    height: 518px;
+    background-image: url(../img/bluebackground-01.png);
+    background-size: 100%;
+    position: relative;
+    z-index: -1;
+}
+#form{
+    width: 512px;
+    height: 262px;
+    margin: 0 auto;
+    align-content: center;
+    margin-top: 90px;
+    position: relative;
+    z-index: +1;
+}
+#formname{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 204px;
+    height: 47px;
+    font-size: medium;
+    padding: 10px;
+    margin-right: 11px;
+}
+#formemail{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 291;
+    height: 47px;
+    font-size: medium;
+    padding: 10px;
+}
+#formmessage{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 515px;
+    height: 147px;
+    font-size: medium;
+    padding: 10px;
+    margin-top: 16px;
+}
+#submit{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 14px;
+    width: 112px;
+    height: 37px;
+    margin-top: 14px;
+    float: right;
+    font-family: inherit;
+    font-size: 14px;
+}
+#submit:hover{
+    background-color: rgba(255, 255, 255, 0.24);    
+}
+#footershadow{
+    margin-top: 43px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),black);
+    opacity: 0.5;
+    background-blend-mode: multiply;
+}
+#footershadow2{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),black);
+    opacity: 0.5;
+    background-blend-mode: multiply;
+}
+
+/* footer start */
+
+
+#footer{
+    background-image: url(../img/purple%20background-01.png);
+    width: 100%;
+    height: 600px;
+    background-size: 1706px;
+}
+#footertalk{
+    align-content: center;
+    width: 570px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 210px;
+}
+#footerFirstLine{
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 11px;
+}
+#footerSecondtLine{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 10px;
+    text-align: center;
+}
+#socialbuttons{
+    width: 153px;
+    height: 40px;
+    margin: 0 auto;
+}
+.footericon{
+    margin: 0 6px;
+    width: 35px;
+    height: 35px;
+}
+
+
+/* .title2{width: 100px;
+margin: 0 auto;
+border: 1.7px solid white;
+border-radius: 12px;
+color: white;
+padding: 10PX;
+text-align: center;}
+.title2 p {margin:0;} */
