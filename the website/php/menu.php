@@ -1,19 +1,15 @@
-<li id="logocontainer">
+<li class='flexgrow-equal' id="logocontainer">
     <a href="#">
         <img src="img/menu/1.png" id="logo" alt="logo"> 
     </a>
 </li>
 
-
-<li id="midmenu">
-</li>
-
-<li id="menu">
+<li class='flexgrow-quattro' id="menu">
     <ul>
-        <a href="#" class="menuitem first"><div> <li class="menu"></li> </div> </a>
-        <a href="#" class="menuitem second"><div> <li class="menu"></li> </div> </a>
-        <a href="#" class="menuitem third"><div> <li class="menu"></li> </div> </a>
-        <a href="#" class="menuitem fourth"><div> <li class="menu"></li> </div> </a>
-        <a href="#" class="menuitem fifth"><div> <li class="menu"></li> </div> </a>
+        <a href="#" class="menuitem first"><ul> <li class="menu"></li> </ul> </a>
+        <a href="#" class="menuitem second"><ul> <li class="menu"></li> </ul> </a>
+        <a href="#" class="menuitem third"><ul> <li class="menu"></li> </ul> </a>
+        <a href="#" class="menuitem fourth"><ul> <li class="menu"></li> </ul> </a>
+        <a href="#" class="menuitem fifth"><ul> <li class="menu"></li> </ul> </a>
     </ul>
 </li>

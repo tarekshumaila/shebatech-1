@@ -8,6 +8,10 @@ body{
     background-color: rgb(236, 188, 188);
 }
 #menucontainer{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
 }
 #logocontainer{
     height: 127px;
@@ -59,7 +63,7 @@ body{
     width: 100%;
     position: relative;
     z-index: -1;
-    top: -10px;
+    top: 0px;
 }
 .slides{
     width: 100%;

@@ -1,41 +1,41 @@
-<div class="title"> <img  src="img/services.png"> </div>
+<ul class="title"> <img  src="img/services.png"> </ul>
 
-<div id="servicescirclesfirstrow">
-    <div class="servicecircle">
-        <div class="serviceicon"> <img src="img/services/graphicdesign.png"> </div>
+<ul id="servicescirclesfirstrow">
+    <ul class="servicecircle">
+        <ul class="serviceicon"> <img src="img/services/graphicdesign.png"> </ul>
         <p class="servicetitle"> Graphic Design </p>
         <p class="servicedescription"> Ali is Awesome Ali is Awesome Ali is Awesome </p>
-    </div>
+    </ul>
 
-    <div class="servicecircle">
-        <div class="serviceicon"> <img src="img/services/graphicdesign.png"> </div>
+    <ul class="servicecircle">
+        <ul class="serviceicon"> <img src="img/services/graphicdesign.png"> </ul>
         <p class="servicetitle"> Graphic Design </p>
         <p class="servicedescription"> Ali is Awesome Ali is Awesome Ali is Awesome </p>
-    </div>
+    </ul>
 
-    <div class="servicecircle">
-        <div class="serviceicon"> <img src="img/services/graphicdesign.png"> </div>
+    <ul class="servicecircle">
+        <ul class="serviceicon"> <img src="img/services/graphicdesign.png"> </ul>
         <p class="servicetitle"> Graphic Design </p>
         <p class="servicedescription"> Ali is Awesome Ali is Awesome Ali is Awesome </p>
-    </div>
-</div>
+    </ul>
+</ul>
 
-<div id="servicescirclessecondrow">
-    <div class="servicecircle">
-        <div class="serviceicon"> <img src="img/services/graphicdesign.png"> </div>
+<ul id="servicescirclessecondrow">
+    <ul class="servicecircle">
+        <ul class="serviceicon"> <img src="img/services/graphicdesign.png"> </ul>
         <p class="servicetitle"> Graphic Design </p>
         <p class="servicedescription"> Ali is Awesome Ali is Awesome Ali is Awesome </p>
-    </div>
+    </ul>
 
-    <div class="servicecircle">
-        <div class="serviceicon"> <img src="img/services/graphicdesign.png"> </div>
+    <ul class="servicecircle">
+        <ul class="serviceicon"> <img src="img/services/graphicdesign.png"> </ul>
         <p class="servicetitle"> Graphic Design </p>
         <p class="servicedescription"> Ali is Awesome Ali is Awesome Ali is Awesome </p>
-    </div>
+    </ul>
 
-    <div class="servicecircle">
-        <div class="serviceicon"> <img src="img/services/graphicdesign.png"> </div>
+    <ul class="servicecircle">
+        <ul class="serviceicon"> <img src="img/services/graphicdesign.png"> </ul>
         <p class="servicetitle"> Graphic Design </p>
         <p class="servicedescription"> Ali is Awesome Ali is Awesome Ali is Awesome </p>
-    </div>
-</div>
+    </ul>
+</ul>

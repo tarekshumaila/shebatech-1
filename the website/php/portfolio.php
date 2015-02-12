@@ -1,39 +1,39 @@
-<div class="title"> <img src="img/portfolio/portfolio.png"> </div>
+<ul class="title"> <img src="img/portfolio/portfolio.png"> </ul>
 
-<div id="PortfolioCircleFirstRow">
-    <div class="portfoliocircles">
+<ul id="PortfolioCircleFirstRow">
+    <ul class="portfoliocircles">
         <p class="portfoliotitle"> Shumaila harry </p>
-        <a href="#" class="btnlink"><div class="portfoliobtn">take a look</div></a>
-    </div>
-    <div class="portfoliocircles">
+        <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+    </ul>
+    <ul class="portfoliocircles">
         <p class="portfoliotitle"> Shumaila harry </p>
-        <a href="#" class="btnlink"><div class="portfoliobtn">take a look</div></a>
-    </div>
-    <div class="portfoliocircles">
+        <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+    </ul>
+    <ul class="portfoliocircles">
         <p class="portfoliotitle"> Shumaila harry </p>
-        <a href="#" class="btnlink"><div class="portfoliobtn">take a look</div></a>
-    </div>
-    <div class="portfoliocircles">
+        <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+    </ul>
+    <ul class="portfoliocircles">
         <p class="portfoliotitle"> Shumaila harry </p>
-        <a href="#" class="btnlink"><div class="portfoliobtn">take a look</div></a>
-    </div>
-</div>
+        <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+    </ul>
+</ul>
 
-<div id="PortfolioCircleSecondRow">
-    <div class="portfoliocircles">
+<ul id="PortfolioCircleSecondRow">
+    <ul class="portfoliocircles">
         <p class="portfoliotitle"> Shumaila harry </p>
-        <a href="#" class="btnlink"><div class="portfoliobtn">take a look</div></a>
-    </div>
-    <div class="portfoliocircles">
+        <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+    </ul>
+    <ul class="portfoliocircles">
         <p class="portfoliotitle"> Shumaila harry </p>
-        <a href="#" class="btnlink"><div class="portfoliobtn">take a look</div></a>
-    </div>
-    <div class="portfoliocircles">
+        <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+    </ul>
+    <ul class="portfoliocircles">
         <p class="portfoliotitle"> Shumaila harry </p>
-        <a href="#" class="btnlink"><div class="portfoliobtn">take a look</div></a>
-    </div>
-    <div class="portfoliocircles">
+        <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+    </ul>
+    <ul class="portfoliocircles">
         <p class="portfoliotitle"> Shumaila harry </p>
-        <a href="#" class="btnlink"><div class="portfoliobtn">take a look</div></a>
-    </div>
-</div>
+        <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+    </ul>
+</ul>

@@ -2,26 +2,26 @@
     <head>
         <?php include './php/head.php'; ?>
     </head>
-        <body>
-            <ul id="menucontainer"><?php include './php/menu.php'; ?></div>
-              
-<!--slides - sorry i have to turn this off temporarily 
-            <?php include './php/slider.php'; ?></div>  
--->
+        <body class="flex direction-column">
+            <ul class='flex justify-between' id="menucontainer"><?php include './php/menu.php'; ?></ul>
+            <ul class='flex justify-between' id="menucontainer"><?php include './php/menu.php'; ?></ul>
+<!--slides -->
+            <ul class='flex' id=""><?php include './php/slider.php'; ?></ul>  
+
 <!--about us-->
-            <div id="aboutus"><?php include './php/aboutus.php'; ?></div>
+            <ul class='flex flexgrow-equal direction-column' id="aboutus"><?php include './php/aboutus.php'; ?></ul>
             
 <!--srevices-->
-            <div id="services"><?php include './php/services.php'; ?></div>
+            <ul class='flex direction-column' id="services"><?php include './php/services.php'; ?></ul>
 
 <!--portfolio-->
-            <div id="portfolio"><?php include './php/portfolio.php'; ?></div>
+            <ul class='flex direction-column' id="portfolio"><?php include './php/portfolio.php'; ?></ul>
 
 <!--contactus-->
-            <div id="contactus"><?php include './php/contactus.php'; ?></div>
+            <ul class='flex direction-column' id="contactus"><?php include './php/contactus.php'; ?></ul>
 
 <!--footer-->     
-            <div id="footer"><?php include './php/footer.php'; ?></div>
+            <ul class='flex direction-column' id="footer"><?php include './php/footer.php'; ?></ul>
         </body>
 </html>
 
