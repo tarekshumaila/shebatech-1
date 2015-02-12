@@ -8,20 +8,13 @@ body{
     background-color: rgb(236, 188, 188);
 }
 #menucontainer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
 }
 #logocontainer{
     height: 127px;
-    position: fixed;
     top: 0;
     margin: 0;
     padding: 0;
     list-style: none;
-    flex-grow: 1;
-    order: 1;
 }
 #logo{
     height: 127px;
@@ -34,19 +27,13 @@ body{
     list-style: none;
     position: fixed;
     top: 0;
-    display: flex;
-    flex-grow: 1;
-    order: 2;
 }
 #menu{
     height: 127px;
     margin: 0;
     padding: 0;
-    position: fixed;
     top: 0;
     list-style-type: none;
-    flex-grow: 1;
-    order: 3;
 }
 .menuitem{
     float:left;
