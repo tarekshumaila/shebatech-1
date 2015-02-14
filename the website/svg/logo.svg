@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300px" height="181.5px" viewBox="0 0 300 181.5" enable-background="new 0 0 300 181.5" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="11.1724" y1="92.0215" x2="255.3662" y2="92.0215">
+	<stop  offset="0" style="stop-color:#02B8E9"/>
+	<stop  offset="0.2774" style="stop-color:#15B9E9"/>
+	<stop  offset="0.4303" style="stop-color:#32BBEA"/>
+	<stop  offset="0.5529" style="stop-color:#4EC0EB"/>
+	<stop  offset="0.6594" style="stop-color:#6AC6ED"/>
+	<stop  offset="0.7555" style="stop-color:#89CFF0"/>
+	<stop  offset="0.8441" style="stop-color:#ACDBF4"/>
+	<stop  offset="0.9253" style="stop-color:#D2EAF9"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<polygon fill="url(#SVGID_1_)" points="255.366,117.472 201.615,171.222 131.52,171.222 131.52,171.222 11.172,50.873 
+	49.224,12.822 150.716,12.822 "/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="133.271" y1="53.2827" x2="274.8828" y2="53.2827">
+	<stop  offset="0" style="stop-color:#E81463"/>
+	<stop  offset="0.2131" style="stop-color:#E81B64"/>
+	<stop  offset="0.3484" style="stop-color:#E92B67"/>
+	<stop  offset="0.4622" style="stop-color:#EA406E"/>
+	<stop  offset="0.564" style="stop-color:#EB5677"/>
+	<stop  offset="0.6578" style="stop-color:#ED6F85"/>
+	<stop  offset="0.7458" style="stop-color:#F08897"/>
+	<stop  offset="0.8292" style="stop-color:#F4A6AE"/>
+	<stop  offset="0.9089" style="stop-color:#F8CACC"/>
+	<stop  offset="0.9832" style="stop-color:#FEF2F1"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<polygon fill="url(#SVGID_2_)" points="274.883,12.822 274.883,61.805 242.943,93.744 242.943,93.744 133.271,93.742 
+	133.271,59.065 179.516,12.822 "/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="237.2822" y1="139.1641" x2="287.6104" y2="139.1641">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.1044" style="stop-color:#FEF9F8"/>
+	<stop  offset="0.2281" style="stop-color:#FDEDEC"/>
+	<stop  offset="0.3615" style="stop-color:#FBD9DA"/>
+	<stop  offset="0.5019" style="stop-color:#F7BFC2"/>
+	<stop  offset="0.6477" style="stop-color:#F39DA7"/>
+	<stop  offset="0.798" style="stop-color:#EE768A"/>
+	<stop  offset="0.9494" style="stop-color:#E93B6C"/>
+	<stop  offset="1" style="stop-color:#E81463"/>
+</linearGradient>
+<polygon fill="url(#SVGID_3_)" points="287.61,149.685 269.402,160.895 237.282,135.509 255.358,117.433 "/>
+<circle fill="#E6E7E8" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="39.218" cy="41.251" r="7.351"/>
+</svg>
