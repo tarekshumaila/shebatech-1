@@ -4,13 +4,13 @@
     </a>
 </li>
 
-<li class='flexgrow-quattro' id="menu">
+<li id="menu">
     <ul>
-        <a href="#" class="menuitem first"><ul> <li class="menu"></li> </ul> </a>
-        <a href="#" class="menuitem second"><ul> <li class="menu"></li> </ul> </a>
-        <a href="#" class="menuitem third"><ul> <li class="menu"></li> </ul> </a>
-        <a href="#" class="menuitem fourth"><ul> <li class="menu"></li> </ul> </a>
-        <a href="#" class="menuitem fifth"><ul> <li class="menu"></li> </ul> </a>
+        <a href="#" class="menuitem first"> <li class="menu">Home</li> </a>
+        <a href="#" class="menuitem second"> <li class="menu">About us</li>  </a>
+        <a href="#" class="menuitem third"> <li class="menu">Services</li>  </a>
+        <a href="#" class="menuitem fourth"> <li class="menu">Portfolio</li>  </a>
+        <a href="#" class="menuitem fifth"> <li class="menu">Contact us</li>  </a>
     </ul>
 </li>
 <script type="text/javascript">
@@ -20,5 +20,7 @@ $( window ).scroll(function() {
   $( ".menuitem" ).css("height","80px").fadeIn( "slow" );
   $( ".csslider1" ).css("margin-top","79px").fadeIn( "slow" );
   $( "#logo" ).css("height","80px").fadeIn( "slow" );
+  $( ".menu" ).css("line-height","80px").fadeIn( "slow" );
+  $( ".menu" ).css("font-size","14px").fadeIn( "slow" );
 });
 </script>

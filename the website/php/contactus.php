@@ -1,5 +1,4 @@
-<ul class="title"> <img src="img/contactus.png"> </ul>
-<ul id="contactform"></ul>
+<div class="title"> <img src="img/contactus.png"> </div>
 <form id="form">
     <ul>
         <input type="text" id="formname" placeholder="Your Name"/>
@@ -12,11 +11,10 @@
         <input type="submit" id="submit"/>
     </ul>
 </form>
-<!--  lets find a better solution here
+
 <ul>
     <img src="img/shadow.png" id="footershadow">
 </ul>
 <ul>
     <img src="img/shadow.png" id="footershadow2">
 </ul>
--->
