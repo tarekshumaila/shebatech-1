@@ -12,9 +12,11 @@
         <input type="submit" id="submit"/>
     </ul>
 </form>
+<!--  lets find a better solution here
 <ul>
     <img src="img/shadow.png" id="footershadow">
 </ul>
 <ul>
     <img src="img/shadow.png" id="footershadow2">
 </ul>
+-->
