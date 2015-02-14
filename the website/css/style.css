@@ -231,6 +231,18 @@ width: 100%;
 #contactus> ul{
     padding: 0;
 }
+#contactussocialbuttons{
+    width: 214px;
+    height: 40px;
+    margin: 0 auto;
+}
+.contactusicon{
+    height: 35px;
+}
+.contactusdetails{
+    display: inline-flex;
+    line-height: 0;
+}
 #form{
     width: 512px;
     height: 262px;

@@ -1,13 +1,8 @@
 <div class="title"> <img src="img/contactus.png"> </div>
-<ul id="socialbuttons">
-    <a href="#"><img src="img/footericons-01.png" class="footericon"></a>
-    <a href="#"><img src="img/footericons-02.png" class="footericon"></a>
-    <a href="#"><img src="img/footericons-03.png" class="footericon"></a>
-</ul>
-<ul id="socialbuttons">
-    <a href="#"><img src="../img/services/mail.png" class="footericon">info@shebatech.com</a>
-    <a href="#"><img src="img/footericons-02.png" class="footericon">+1(403)890-8700</a>
-    <a href="#"><img src="../img/services/maps.png" class="footericon">193 Hidden Creek Rd NW</a>
+<ul id="contactussocialbuttons">
+    <div class="contactusdetails"><img src="../svg/email.svg" class="contactusicon"><p>info@shebatech.com</p></div>
+    <div class="contactusdetails"><img src="../svg/telephone.svg" class="contactusicon"><p>+1(403)890-8700</p></div>
+    <div class="contactusdetails"><img src="../svg/location.svg" class="contactusicon"><p>193 Hidden Creek Rd NW</p></div>
 </ul>
 <form id="form">
     <ul>
