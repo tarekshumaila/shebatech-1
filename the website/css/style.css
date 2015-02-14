@@ -328,7 +328,13 @@ body{
     width: 35px;
     height: 35px;
 }
-
+.csslider1 {
+display: inline-block;
+position: relative;
+height: 515px;
+width: 100%;
+margin-top: 126px;
+}
 
 /* .title2{width: 100px;
 margin: 0 auto;

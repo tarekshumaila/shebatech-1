@@ -13,3 +13,12 @@
         <a href="#" class="menuitem fifth"><ul> <li class="menu"></li> </ul> </a>
     </ul>
 </li>
+<script type="text/javascript">
+$( window ).scroll(function() {
+  $( "#menucontainer" ).css("height","80px").fadeIn( "slow" );
+  $( ".menuitem" ).css("width","95px").fadeIn( "slow" );
+  $( ".menuitem" ).css("height","80px").fadeIn( "slow" );
+  $( ".csslider1" ).css("margin-top","79px").fadeIn( "slow" );
+  $( "#logo" ).css("height","80px").fadeIn( "slow" );
+});
+</script>
