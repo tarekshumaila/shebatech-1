@@ -19,8 +19,12 @@ $( window ).scroll(function() {
   $(".menuitem").animate({height:'80px'}, 500);
   $(".menuitem").animate({width:'95px'}, 500);
   $("#logo").animate({height:'80px'}, 500);
-  $(".menu").animate({height:'80px'}, 500);
+  $("#menu").animate({height:'80px'}, 500);
+  $("#menu ul").animate({height:'80px'}, 500);
   $("#logocontainer").animate({height:'80px'}, 500);
-  $(".menu").css("font-size",'20px');
+
+  $(".menu").animate({'line-height':'90px'}, 500);
+  $(".menu").animate({'font-size':'16px'}, 500);
+
 });
 </script>
