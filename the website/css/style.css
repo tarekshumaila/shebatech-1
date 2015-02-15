@@ -82,6 +82,7 @@ display: inline-block;
 position: relative;
 height: 515px;
 width: 100%;
+padding-top: 0;
 }
 
 /* about us start */
@@ -330,7 +331,7 @@ width: 100%;
 #footer{
     background-image: url(../img/purple%20background-01.png);
     width: 100%;
-    height: 600px;
+    height: 200px;
     background-size: 1706px;
 }
 #footertalk{
@@ -338,18 +339,21 @@ width: 100%;
     width: 570px;
     height: 200px;
     margin: 0 auto;
-    padding-top: 210px;
+    padding-top: 20px;
+    padding-left: 0;
 }
 #footerFirstLine{
     color: white;
-    font-family: monospace;
     text-align: center;
-    font-size: 11px;
+    font-size: 14px;
 }
 #footerSecondtLine{
     color: rgba(255, 255, 255, 0.4);
     font-size: 10px;
     text-align: center;
+    font-family: monospace;
+    margin-top: 60px;
+
 }
 #socialbuttons{
     width: 153px;

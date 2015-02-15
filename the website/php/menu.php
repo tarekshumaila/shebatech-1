@@ -15,12 +15,12 @@
 </li>
 <script type="text/javascript">
 $( window ).scroll(function() {
-  $( "#menucontainer" ).css("height","80px").fadeIn( "slow" );
-  $( ".menuitem" ).css("width","95px").fadeIn( "slow" );
-  $( ".menuitem" ).css("height","80px").fadeIn( "slow" );
-  $( ".csslider1" ).css("margin-top","79px").fadeIn( "slow" );
-  $( "#logo" ).css("height","80px").fadeIn( "slow" );
-  $( ".menu" ).css("line-height","80px").fadeIn( "slow" );
-  $( ".menu" ).css("font-size","14px").fadeIn( "slow" );
+  $("#menucontainer").animate({height:'80px'}, 500);
+  $(".menuitem").animate({height:'80px'}, 500);
+  $(".menuitem").animate({width:'95px'}, 500);
+  $("#logo").animate({height:'80px'}, 500);
+  $(".menu").animate({height:'80px'}, 500);
+  $("#logocontainer").animate({height:'80px'}, 500);
+  $(".menu").css("font-size",'20px');
 });
 </script>
