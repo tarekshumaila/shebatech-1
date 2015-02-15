@@ -175,13 +175,10 @@ padding-top: 0;
     position: relative;
     z-index: -1;
 }
-#PortfolioCircleFirstRow{
+#PortfolioCircleFirstRow, #PortfolioCircleSecondRow{
     width: 960px;
     margin: 0 auto;
-}
-#PortfolioCircleSecondRow{
-    width: 960px;
-    margin: 0 auto;
+    padding-left: 0px
 }
 .portfoliocircles{
     float: left;
@@ -194,10 +191,23 @@ padding-top: 0;
     text-align: center;
     background-color: 82163F;
     background-image: url(../img/portfolio/website%20image-02.png);
+    background-size: 100%;
 
 }
 .portfoliocircles:hover{
     background-image: url(../img/portfolio/website%20image%20hover-02.png);
+}
+.port1{
+    background-image: url(../img/portfolio/1.png);
+}
+.port2{
+    background-image: url(../img/portfolio/2.png);
+}
+.port3{
+    background-image: url(../img/portfolio/3.png);
+}
+.port4{
+    background-image: url(../img/portfolio/4.png);
 }
 .portfoliobtn{
     border: 1.4px solid white;
@@ -365,6 +375,7 @@ padding-top: 0;
     width: 35px;
     height: 35px;
 }
+
 
 /* .title2{width: 100px;
 margin: 0 auto;
