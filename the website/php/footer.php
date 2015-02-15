@@ -1,5 +1,5 @@
 <ul id="footertalk">
-        <p id="footerFirstLine">Please follow us on Facebook, LinkedIna and Google+</p>
+        <p id="footerFirstLine">Please follow us on Facebook, LinkedIn and Google+</p>
     <ul id="socialbuttons">
         <a href="#"><img src="img/footericons-01.png" class="footericon"></a>
         <a href="#"><img src="img/footericons-02.png" class="footericon"></a>
