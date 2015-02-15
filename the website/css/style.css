@@ -80,11 +80,21 @@ body{
 .csslider1 {
 display: inline-block;
 position: relative;
-height: 515px;
+height: 728px;
 width: 100%;
 padding-top: 0;
 }
-
+.csslider1 > ul {
+  position: relative;
+  z-index: 1;
+  font-size: 0;
+  line-height: 0;
+  margin: 0 auto;
+  padding: 0;
+  height: 900px;
+  overflow: hidden;
+  white-space: nowrap;
+}
 /* about us start */
 
 #aboutus{

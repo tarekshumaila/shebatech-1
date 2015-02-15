@@ -16,17 +16,7 @@
 .csslider1 > .cs_anchor {
   display: none;
 }
-.csslider1 > ul {
-  position: relative;
-  z-index: 1;
-  font-size: 0;
-  line-height: 0;
-  margin: 0 auto;
-  padding: 0;
-  height: 515px;
-  overflow: hidden;
-  white-space: nowrap;
-}
+
 .csslider1 > ul > .cs_skeleton {
   width: 100%;
   visibility: hidden;
