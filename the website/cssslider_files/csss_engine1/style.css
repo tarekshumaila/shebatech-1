@@ -12,7 +12,13 @@
 	font-style: normal;
 }
 
-
+.csslider1 {
+  display: inline-block;
+  position: relative;
+  
+  height: 730px;
+  width: 100%;
+}
 .csslider1 > .cs_anchor {
   display: none;
 }
@@ -23,7 +29,7 @@
   line-height: 0;
   margin: 0 auto;
   padding: 0;
-  height: 515px;
+  height: 730px;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -138,13 +144,13 @@
 
 .csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num1,
 .csslider1 > #cs_play1:checked ~ .cs_arrownext > label.num1 {
-  -webkit-animation: arrow 10400ms infinite -2000ms;
-  animation: arrow 10400ms infinite -2000ms;
+  -webkit-animation: arrow 16000ms infinite -2000ms;
+  animation: arrow 16000ms infinite -2000ms;
 }
 .csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num0,
 .csslider1 > #cs_play1:checked ~ .cs_arrownext > label.num0 {
-  -webkit-animation: arrow 10400ms infinite 3200ms;
-  animation: arrow 10400ms infinite 3200ms;
+  -webkit-animation: arrow 16000ms infinite 6000ms;
+  animation: arrow 16000ms infinite 6000ms;
 }
 
 
@@ -184,7 +190,7 @@
   opacity: 0;
   z-index: 1;
   line-height: 0;
-  left: -44.5px;
+  left: -31.5px;
   top: -48px;
 }
 .csslider1 > .cs_bullets > label > .cs_thumb > img {
@@ -219,6 +225,60 @@
   display: inline-block;
 }
 /* ------------- /General Description ------------- */
+
+/* ------------- General Gestures ------------- */
+.csslider1.cs_handle {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAABwSURBVEjH7ZJBEsAgCAMT/v/n9NCOSqe2oD2yNx1JggB4BCEFWyFASP2KMQE7ywWhe/tTRGCGogLk02tFctiW/SUgaMyQG4PdPzDn31rQbMb8FiAXgvsEJNax1yVlVGAjA93apP3HFhZTGIqiKH7iADB6HxPlHdNVAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE0LTA3LTA3VDEzOjQ5OjEwKzAyOjAwm7WiFAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNC0wNy0wN1QxMzo0OToxMCswMjowMOroGqgAAAAASUVORK5CYII="), move;
+}
+.csslider1.cs_handle.cs_grab {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAABaSURBVEjH7ZMxCkAhDEOT8u9/5TpJ+xWkFse8IYutJgEB8RCHL1qCc90BEFnT6QH7mwgFHBUf8wJyS1TDLuc3vmighx37LZdIth3E5hKj9n6O0HRh+oJCiFcMxRUUDxR1CTMAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTQtMDctMDdUMTM6NDk6MzgrMDI6MDDqf+sOAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE0LTA3LTA3VDEzOjQ5OjM4KzAyOjAwmyJTsgAAAABJRU5ErkJggg=="), move;
+}
+
+
+.csslider1 .cs_gestures {
+  visibility: hidden;
+  position: absolute;
+  font-size: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  opacity: 0;
+
+  -webkit-transition: visibility .3s linear, opacity .3s linear;
+  transition: visibility .3s linear, opacity .3s linear;
+}
+.csslider1 .cs_gestures.cs_show {
+  visibility: visible;
+  opacity: 1;
+}
+.csslider1 .cs_gestures.cs_show img {
+  width: 50%;
+}
+.csslider1 .cs_gestures.cs_show .cs_first_img {
+  position: absolute;
+  left: -50%;
+  top: 0;
+}
+.csslider1 .cs_gestures.cs_show .cs_last_img {
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.csslider1 .cs_gestures > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200%;
+}
+/* ------------- /General Gestures ------------- */
 
 /* ------------- Effect ------------- */
 .csslider1 > ul > .slide.num0 {
@@ -261,37 +321,37 @@
 
 
 @-webkit-keyframes slide {
-  0%, 30.76923076923077%  { -webkit-transform: translateX(0%); transform: translateX(0%); }
-  50%, 80.76923076923077%  { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
+  0%, 37.5%  { -webkit-transform: translateX(0%); transform: translateX(0%); }
+  50%, 87.5%  { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
   
 }
 @keyframes slide {
-  0%, 30.76923076923077%  { -webkit-transform: translateX(0%); transform: translateX(0%); }
-  50%, 80.76923076923077%  { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
+  0%, 37.5%  { -webkit-transform: translateX(0%); transform: translateX(0%); }
+  50%, 87.5%  { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
   
 }
 
 @-webkit-keyframes slide-ie {
-  0%, 30.76923076923077%  { margin-left: 0%; }
-  50%, 80.76923076923077%  { margin-left: -100%; }
+  0%, 37.5%  { margin-left: 0%; }
+  50%, 87.5%  { margin-left: -100%; }
   
 }
 @keyframes slide-ie {
-  0%, 30.76923076923077%  { margin-left: 0%; }
-  50%, 80.76923076923077%  { margin-left: -100%; }
+  0%, 37.5%  { margin-left: 0%; }
+  50%, 87.5%  { margin-left: -100%; }
   
 }
 
 .csslider1  > #cs_play1:checked ~ ul > .slide {
   
-  -webkit-animation: slide 10400ms infinite;
-  animation: slide 10400ms infinite;
+  -webkit-animation: slide 16000ms infinite;
+  animation: slide 16000ms infinite;
   
 }
 /* IE 10+ hack - cant animate translate :( */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .csslider1  > #cs_play1:checked ~ ul > .slide {
-    animation: slide-ie 10400ms infinite;
+    animation: slide-ie 16000ms infinite;
   }
 }
 
@@ -344,7 +404,7 @@
   margin-top: -28px;
   margin-left: -28px;
 
-  background-color: #FFFFFF;
+  background-color: white;
 
   border-radius: 50%;
 }
@@ -392,7 +452,7 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 
 .csslider1 > .cs_arrowprev:hover > label,
 .csslider1 > .cs_arrownext:hover > label {
-  background-color: #ffffff;
+  background-color: #808080;
 }
 
 .csslider1 > .cs_arrownext:hover > label span {
@@ -475,12 +535,12 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
   border-radius: 50%;
   margin: 0 5px;
   padding: 9px;
-  background: #FFFFFF;
+  background: white;
 }
 
 
 .csslider1 > .cs_bullets > label > .cs_thumb {
-  border: 3px solid #FFFFFF;
+  border: 3px solid white;
   margin-top: -150%;
   margin-left: 3px;
   -webkit-transition: all 0.3s;
@@ -497,7 +557,7 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   
-  border-top: 7px solid #FFFFFF;
+  border-top: 7px solid white;
 }
 .csslider1 > .cs_bullets > label:hover > .cs_thumb {
   margin-top: -12px;
@@ -541,13 +601,13 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 
 .csslider1 > #cs_play1:checked ~ .cs_bullets > label.num0 > .cs_point,
 .csslider1 > #cs_pause1:checked ~ .cs_bullets > label.num0 > .cs_point {
-  -webkit-animation: bullet 10400ms infinite -2000ms;
-  animation: bullet 10400ms infinite -2000ms;
+  -webkit-animation: bullet 16000ms infinite -2000ms;
+  animation: bullet 16000ms infinite -2000ms;
 }
 .csslider1 > #cs_play1:checked ~ .cs_bullets > label.num1 > .cs_point,
 .csslider1 > #cs_pause1:checked ~ .cs_bullets > label.num1 > .cs_point {
-  -webkit-animation: bullet 10400ms infinite 3200ms;
-  animation: bullet 10400ms infinite 3200ms;
+  -webkit-animation: bullet 16000ms infinite 6000ms;
+  animation: bullet 16000ms infinite 6000ms;
 }
 
 
@@ -617,7 +677,7 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
   transform: translateY(0);
 }
 .csslider1 > .cs_description > label > .cs_title {
-  background-color: #FFFFFF;
+  background-color: white;
   margin: -5px 10px;
   opacity: 0;
   visibility: hidden;
@@ -636,7 +696,7 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
     950ms visibility 600ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 .csslider1 > .cs_description > label > .cs_descr {
-  background-color: #ffffff;
+  background-color: #808080;
   text-align: left;
   font-size: 0.8em;
   margin: -5px 20px;
@@ -689,156 +749,156 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 
 
 @-webkit-keyframes cs_title {
-  3.1971153846153846%, 46.792884615384615%  {
+  2.078125%, 47.911875%  {
     opacity: 1;
     z-index: 2;
     visibility: visible;
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
   }
-  4.5673076923076925%, 45.42269230769231%  {
+  2.96875%, 47.02125%  {
     opacity: 1;
     z-index: 2;
     visibility: visible;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  54.56730769230769%  {
+  52.96875%  {
     opacity: 0;
     z-index: 2;
     visibility: hidden;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
   }
-  54.57730769230769%, 100%  { z-index: 0; }
+  52.97875%, 100%  { z-index: 0; }
 }
 @keyframes cs_title {
-  3.1971153846153846%, 46.792884615384615%  {
+  2.078125%, 47.911875%  {
     opacity: 1;
     z-index: 2;
     visibility: visible;
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
   }
-  4.5673076923076925%, 45.42269230769231%  {
+  2.96875%, 47.02125%  {
     opacity: 1;
     z-index: 2;
     visibility: visible;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  54.56730769230769%  {
+  52.96875%  {
     opacity: 0;
     z-index: 2;
     visibility: hidden;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
   }
-  54.57730769230769%, 100%  { z-index: 0; }
+  52.97875%, 100%  { z-index: 0; }
 }
 
 
 @-webkit-keyframes cs_descr {
-  3.1971153846153846%, 46.792884615384615%  {
+  2.078125%, 47.911875%  {
     opacity: 1;
     z-index: 1;
     visibility: visible;
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-  4.5673076923076925%, 45.42269230769231%  {
+  2.96875%, 47.02125%  {
     opacity: 1;
     z-index: 1;
     visibility: visible;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  54.56730769230769%  {
+  52.96875%  {
     opacity: 0;
     z-index: 1;
     visibility: hidden;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
   }
-  54.57730769230769%, 100%  { z-index: 0; }
+  52.97875%, 100%  { z-index: 0; }
 }
 @keyframes cs_descr {
-  3.1971153846153846%, 46.792884615384615%  {
+  2.078125%, 47.911875%  {
     opacity: 1;
     z-index: 1;
     visibility: visible;
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-  4.5673076923076925%, 45.42269230769231%  {
+  2.96875%, 47.02125%  {
     opacity: 1;
     z-index: 1;
     visibility: visible;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  54.56730769230769%  {
+  52.96875%  {
     opacity: 0;
     z-index: 1;
     visibility: hidden;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
   }
-  54.57730769230769%, 100%  { z-index: 0; }
+  52.97875%, 100%  { z-index: 0; }
 }
 
 
 .csslider1 > #cs_play1:checked ~ .cs_description > .num0  > .cs_title {
-  -webkit-animation: cs_title 10400ms infinite -1400ms ease;
-  animation: cs_title 10400ms infinite -1400ms ease;
+  -webkit-animation: cs_title 16000ms infinite -1400ms ease;
+  animation: cs_title 16000ms infinite -1400ms ease;
 }
 .csslider1 > #cs_play1:checked ~ .cs_description > .num1  > .cs_title {
-  -webkit-animation: cs_title 10400ms infinite 3800ms ease;
-  animation: cs_title 10400ms infinite 3800ms ease;
+  -webkit-animation: cs_title 16000ms infinite 6600ms ease;
+  animation: cs_title 16000ms infinite 6600ms ease;
 }
 
 
 .csslider1 > #cs_play1:checked ~ .cs_description > .num0  > .cs_descr {
-  -webkit-animation: cs_descr 10400ms infinite -1150ms ease;
-  animation: cs_descr 10400ms infinite -1150ms ease;
+  -webkit-animation: cs_descr 16000ms infinite -1150ms ease;
+  animation: cs_descr 16000ms infinite -1150ms ease;
 }
 .csslider1 > #cs_play1:checked ~ .cs_description > .num1  > .cs_descr {
-  -webkit-animation: cs_descr 10400ms infinite 4050ms ease;
-  animation: cs_descr 10400ms infinite 4050ms ease;
+  -webkit-animation: cs_descr 16000ms infinite 6850ms ease;
+  animation: cs_descr 16000ms infinite 6850ms ease;
 }
 
 
 
 
 @-webkit-keyframes cs_title_text {
-  3.1971153846153846%, 46.792884615384615%  {
+  2.078125%, 47.911875%  {
     opacity: 1;
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
   }
-  4.5673076923076925%, 45.42269230769231%  {
+  2.96875%, 47.02125%  {
     opacity: 1;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  54.56730769230769%  {
+  52.96875%  {
     opacity: 0;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
   }
 }
 @keyframes cs_title_text {
-  3.1971153846153846%, 46.792884615384615%  {
+  2.078125%, 47.911875%  {
     opacity: 1;
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
   }
-  4.5673076923076925%, 45.42269230769231%  {
+  2.96875%, 47.02125%  {
     opacity: 1;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  54.56730769230769%  {
+  52.96875%  {
     opacity: 0;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
@@ -847,34 +907,34 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 
 
 @-webkit-keyframes cs_descr_text {
-  3.1971153846153846%, 46.792884615384615%  {
+  2.078125%, 47.911875%  {
     opacity: 1;
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-  4.5673076923076925%, 45.42269230769231%  {
+  2.96875%, 47.02125%  {
     opacity: 1;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  54.56730769230769%  {
+  52.96875%  {
     opacity: 0;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
   }
 }
 @keyframes cs_descr_text {
-  3.1971153846153846%, 46.792884615384615%  {
+  2.078125%, 47.911875%  {
     opacity: 1;
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-  4.5673076923076925%, 45.42269230769231%  {
+  2.96875%, 47.02125%  {
     opacity: 1;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  54.56730769230769%  {
+  52.96875%  {
     opacity: 0;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
@@ -883,22 +943,22 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 
 
 .csslider1 > #cs_play1:checked ~ .cs_description > .num0 .cs_title > .cs_wrapper {
-  -webkit-animation: cs_title_text 10400ms infinite -1250ms ease;
-  animation: cs_title_text 10400ms infinite -1250ms ease;
+  -webkit-animation: cs_title_text 16000ms infinite -1250ms ease;
+  animation: cs_title_text 16000ms infinite -1250ms ease;
 }
 .csslider1 > #cs_play1:checked ~ .cs_description > .num1 .cs_title > .cs_wrapper {
-  -webkit-animation: cs_title_text 10400ms infinite 3950ms ease;
-  animation: cs_title_text 10400ms infinite 3950ms ease;
+  -webkit-animation: cs_title_text 16000ms infinite 6750ms ease;
+  animation: cs_title_text 16000ms infinite 6750ms ease;
 }
 
 
 .csslider1 > #cs_play1:checked ~ .cs_description > .num0 .cs_descr > .cs_wrapper {
-  -webkit-animation: cs_descr_text 10400ms infinite -1000ms ease;
-  animation: cs_descr_text 10400ms infinite -1000ms ease;
+  -webkit-animation: cs_descr_text 16000ms infinite -1000ms ease;
+  animation: cs_descr_text 16000ms infinite -1000ms ease;
 }
 .csslider1 > #cs_play1:checked ~ .cs_description > .num1 .cs_descr > .cs_wrapper {
-  -webkit-animation: cs_descr_text 10400ms infinite 4200ms ease;
-  animation: cs_descr_text 10400ms infinite 4200ms ease;
+  -webkit-animation: cs_descr_text 16000ms infinite 7000ms ease;
+  animation: cs_descr_text 16000ms infinite 7000ms ease;
 }
 
 
