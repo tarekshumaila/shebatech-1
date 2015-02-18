@@ -3,7 +3,7 @@
         <?php include './php/head.php'; ?>
     </head>
         <body class="flex direction-column">
-            <ul class='flex justify-between' id="menucontainer"><?php include './php/menu.php'; ?></ul>
+            <ul class='flex wrap-wrap justify-between' id="menucontainer"><?php include './php/menu.php'; ?></ul>
 <!--slides -->
             <ul class='flex' id=""><?php include './php/slider.php'; ?></ul>  
 

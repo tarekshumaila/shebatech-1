@@ -365,6 +365,7 @@ padding-top: 0;
     width: 35px;
     height: 35px;
 }
+#menu ul{padding-left: 0px;}
 @media screen and (max-width: 1045px){
     #menucontainer{
         height: 80px;
