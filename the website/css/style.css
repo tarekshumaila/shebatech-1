@@ -247,10 +247,8 @@ padding-top: 0;
     line-height: 0;
 }
 #form{
-    width: 420px;
-    margin: 0 auto;
     align-content: center;
-    margin-top: 90px;
+    margin-top: 20px;
     position: relative;
     z-index: +1;
 }
