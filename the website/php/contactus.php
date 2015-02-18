@@ -16,10 +16,10 @@
         <input type="submit" id="submit"/>
     </ul>
 </form>
-
-<ul>
+<!-- these are casuing the page to act funny with mobile layout
+<ul class="flex">
     <img src="img/shadow.png" id="footershadow">
 </ul>
-<ul>
+<ul class="flex">
     <img src="img/shadow.png" id="footershadow2">
-</ul>
+</ul>-->

@@ -80,7 +80,6 @@ body{
 .csslider1 {
 display: inline-block;
 position: relative;
-height: 728px;
 width: 100%;
 padding-top: 0;
 }
@@ -91,7 +90,6 @@ padding-top: 0;
   line-height: 0;
   margin: 0 auto;
   padding: 0;
-  height: 900px;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -99,9 +97,8 @@ padding-top: 0;
 
 #aboutus{
     width: 100%;
-    height: 518px;
     background-image: url(../img/pinkbackground-01-01.png);
-    background-size: 100%;
+
     position: relative;
     z-index: -1;
 }
@@ -112,8 +109,7 @@ padding-top: 0;
     padding: 0;
 }
 #aboutusdescription{
-    width: 506px;
-    height: 140px;
+    max-width: 480px;
     margin: 32px auto;
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 69px;
@@ -127,8 +123,7 @@ padding-top: 0;
 #services{
     background-image: url(../img/bluebackground-01.png);
     width: 100%;
-    height: 533px;
-    background-size: 100%;
+
     position: relative;
     z-index: -1;
 }
@@ -179,9 +174,8 @@ padding-top: 0;
 
 #portfolio{
     width: 100%;
-    height: 518px;
     background-image: url(../img/pinkbackground-01-01.png);
-    background-size: 100%;
+
     position: relative;
     z-index: -1;
 }
@@ -201,7 +195,7 @@ padding-top: 0;
     text-align: center;
     background-color: 82163F;
     background-image: url(../img/portfolio/website%20image-02.png);
-    background-size: 100%;
+
 
 }
 .portfoliocircles:hover{
@@ -243,9 +237,7 @@ padding-top: 0;
 
 #contactus{
     width: 100%;
-    height: 518px;
     background-image: url(../img/bluebackground-01.png);
-    background-size: 100%;
     position: relative;
     z-index: -1;
 }
@@ -265,8 +257,7 @@ padding-top: 0;
     line-height: 0;
 }
 #form{
-    width: 512px;
-    height: 262px;
+    width: 420px;
     margin: 0 auto;
     align-content: center;
     margin-top: 90px;
