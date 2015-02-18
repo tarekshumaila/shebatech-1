@@ -110,3 +110,7 @@
 	flex-grow:1;
 	-webkit-flex-grow:1;
 }
+.centerMeInANewLine{
+    flex: 1 100%;
+    text-align: center;
+}

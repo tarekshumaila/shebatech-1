@@ -1,6 +1,5 @@
-<ul class="title"> <img  src="img/services.png"> </ul>
+<ul class="title centerMeInANewLine"> <img  src="img/services.png"> </ul>
 
-<ul id="servicescirclesfirstrow">
     <ul class="servicecircle">
         <ul class="serviceicon"> <img src="../img/services/graphicdesign.png"> </ul>
         <p class="servicetitle">Branding and Design</p>
@@ -18,9 +17,7 @@
         <p class="servicetitle"> Web Development </p>
         <p class="servicedescription">Make the website that you have been dreaming about with us</p>
     </ul>
-</ul>
 
-<ul id="servicescirclessecondrow">
     <ul class="servicecircle">
         <ul class="serviceicon"> <img src="../img/services/cloud.png"> </ul>
         <p class="servicetitle"> Cloud Solutions</p>
@@ -38,4 +35,3 @@
         <p class="servicetitle"> Email Solutions </p>
         <p class="servicedescription">Whether it's Google services or Microsoft Exchange, we can assist you.</p>
     </ul>
-</ul>

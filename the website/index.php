@@ -11,10 +11,10 @@
             <ul class='flex align-stretch direction-column' id="aboutus"><?php include './php/aboutus.php'; ?></ul>
             
 <!--srevices-->
-            <ul class='flex wrap-wrap' id="services"><?php include './php/services.php'; ?></ul>
+            <ul class='flex justify-around wrap-wrap' id="services"><?php include './php/services.php'; ?></ul>
 
 <!--portfolio-->
-            <ul class='flex wrap-wrap' id="portfolio"><?php include './php/portfolio.php'; ?></ul>
+            <ul class='flex justify-around wrap-wrap' id="portfolio"><?php include './php/portfolio.php'; ?></ul>
 
 <!--contactus-->
             <ul class='flex wrap-wrap' id="contactus"><?php include './php/contactus.php'; ?></ul>
