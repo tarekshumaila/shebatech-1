@@ -17,7 +17,7 @@
             <ul class='flex justify-around wrap-wrap' id="portfolio"><?php include './php/portfolio.php'; ?></ul>
 
 <!--contactus-->
-            <ul class='flex wrap-wrap' id="contactus"><?php include './php/contactus.php'; ?></ul>
+            <ul class='flex justify-around wrap-wrap' id="contactus"><?php include './php/contactus.php'; ?></ul>
 
 <!--footer-->     
             <ul class='flex wrap-wrap' id="footer"><?php include './php/footer.php'; ?></ul>

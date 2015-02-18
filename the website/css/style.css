@@ -236,9 +236,8 @@ padding-top: 0;
     padding: 0;
 }
 #contactussocialbuttons{
-    width: 214px;
-    height: 40px;
-    margin: 0 auto;
+   padding-top: 20;
+    max-width: 300px;
 }
 .contactusicon{
     height: 35px;
