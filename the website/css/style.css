@@ -431,17 +431,17 @@ padding-top: 0;
 }
 @media screen and (max-width: 540px){
     #menucontainer{
-        height: 50px;
+        height: 45px;
     }
     .menuitem{
-        width: 65px;
-        height: 50px;    
+        width: 60px;
+        height: 45px;    
     }
     .menu{
-        line-height: 60px;
+        line-height: 55px;
         font-size: 10px;
     }
     #logo{
-        height: 50px;
+        height: 45px;
     }
 }
