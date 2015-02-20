@@ -130,8 +130,8 @@ padding-top: 0;
 
 .servicecircle{
     float: left;
-    width: 130px;
-    height: 130px;
+    width: 170px;
+    height: 170px;
     margin: 3px 58px;
     border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 130px;
@@ -144,9 +144,8 @@ padding-top: 0;
     text-align: -webkit-center;
     font-size: 19px;
     width: 174px;
-    margin-left: -23px;
-    margin-top: 1px;
-    margin-bottom: -7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .servicedescription{
     margin-top: 11px;
