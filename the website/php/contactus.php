@@ -1,3 +1,4 @@
+<div class="mediumcontainer">
 <div class="title centerMeInANewLine"> <img src="img/contactus.png"> </div>
 <ul id="contactussocialbuttons">
     <div class="contactusdetails"><img src="../svg/email.svg" class="contactusicon"><p>info@shebatech.com</p></div>
@@ -16,6 +17,7 @@
         <input type="submit" id="submit"/>
     </ul>
 </form>
+<div class="mediumcontainer">
 <!-- these are casuing the page to act funny with mobile layout
 <ul class="flex">
     <img src="img/shadow.png" id="footershadow">

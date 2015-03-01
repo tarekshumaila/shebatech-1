@@ -96,11 +96,11 @@ padding-top: 0;
 /* about us start */
 
 #aboutus{
-    width: 100%;
-    background-image: url(../img/pinkbackground-01-01.png);
-
-    position: relative;
-    z-index: -1;
+    background: url(../img/pinkbackground-01-01.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #pinklogo{
     width: 147px;
@@ -121,17 +121,17 @@ padding-top: 0;
 /* services start */
 
 #services{
-    background-image: url(../img/bluebackground-01.png);
-    width: 100%;
-    padding-bottom: 40px;
-    position: relative;
-    z-index: -1;
+     background: url(../img/bluebackground-01.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .servicecircle{
     float: left;
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     margin: 3px 58px;
     border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 130px;
@@ -163,11 +163,11 @@ padding-top: 0;
 /* portfolio start */
 
 #portfolio{
-    width: 100%;
-    background-image: url(../img/pinkbackground-01-01.png);
-    padding-bottom: 20px;
-    position: relative;
-    z-index: -1;
+    background: url(../img/pinkbackground-01-01.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #PortfolioCircleFirstRow, #PortfolioCircleSecondRow{
     width: 960px;
@@ -226,11 +226,11 @@ padding-top: 0;
 
 
 #contactus{
-    width: 100%;
-    background-image: url(../img/bluebackground-01.png);
-    position: relative;
-    z-index: -1;
-    padding-bottom: 20px;
+    background: url(../img/bluebackground-01.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #contactus> ul{
     padding: 0;
@@ -364,6 +364,7 @@ padding-top: 0;
     height: 35px;
 }
 #menu ul{padding-left: 0px;}
+.mediumcontainer{max-width: 1024px}
 @media screen and (max-width: 1045px){
     #menucontainer{
         height: 80px;

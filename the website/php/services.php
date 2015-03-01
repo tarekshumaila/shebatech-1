@@ -1,3 +1,4 @@
+<div class="mediumcontainer flex justify-around wrap-wrap">
 <ul class="title centerMeInANewLine"> <img  src="img/services.png"> </ul>
 
     <ul class="servicecircle">
@@ -35,3 +36,4 @@
         <p class="servicetitle"> Email Solutions </p>
         <p class="servicedescription">Whether it's Google services or Microsoft Exchange, we can assist you.</p>
     </ul>
+</div>
