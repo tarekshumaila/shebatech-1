@@ -112,5 +112,6 @@
 }
 .centerMeInANewLine{
     flex: 1 100%;
+    -webkit-flex: 1 100%;
     text-align: center;
 }
