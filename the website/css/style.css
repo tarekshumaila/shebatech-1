@@ -6,7 +6,6 @@ body{
     font-family: 'Poiret One', cursive;
     position: relative;
     z-index: -1;
-    background-color: rgb(236, 188, 188);
 }
 #menucontainer{
     background-color: rgba(255, 255, 255, 0.8);
@@ -412,6 +411,7 @@ padding-top: 0;
     #logo{
         height: 70px;
     }
+    
 }
 @media screen and (max-width: 690px){
     #menucontainer{
@@ -428,6 +428,21 @@ padding-top: 0;
     #logo{
         height: 60px;
     }
+    .first > .menu, .third > .menu  {
+        padding-left: 15px;
+    }
+    .second > .menu {
+        padding-left: 10px;
+    }
+    {
+        padding-left: 15px;
+    }
+    .fourth > .menu {
+        padding-left: 4px;
+    }
+    .fifth > .menu {
+        padding-left: 9px;
+    }
 }
 @media screen and (max-width: 540px){
     #menucontainer{
@@ -443,5 +458,20 @@ padding-top: 0;
     }
     #logo{
         height: 45px;
+    }
+    .first > .menu, .third > .menu  {
+        padding-left: 15px;
+    }
+    .second > .menu {
+        padding-left: 10px;
+    }
+    {
+        padding-left: 15px;
+    }
+    .fourth > .menu {
+        padding-left: 4px;
+    }
+    .fifth > .menu {
+        padding-left: 9px;
     }
 }
