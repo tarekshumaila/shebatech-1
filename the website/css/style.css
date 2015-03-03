@@ -57,41 +57,26 @@ body{
 /* slides start */
 
 #slider{
+    display: inline-block;
     width: 100%;
-    position: relative;
+    min-height: 600px;
+    max-height: 700px;
     z-index: -1;
     top: 0px;
+    overflow: hidden;
+    background-color: wheat;
+    list-style: none;
+    padding-left: 0px;
 }
-.slides{
-    width: 100%;
-    list-style-type: none;
+#slider li:nth-child(even) {
+    background-image: url(../img/sliderbg/1.png);text-align: center;
 }
-#slide1{
-    width: 100%;
+#slider li:nth-child(odd) {
+    background-image: url(../img/sliderbg/2.png);text-align: center;
+    
 }
-.title{
-    width: 121px;
-    margin: 0 auto;
-    padding-top: 34px;
-    padding-left: 0;
-    padding-bottom: 20px;
-}
-.csslider1 {
-display: inline-block;
-position: relative;
-width: 100%;
-padding-top: 0;
-}
-.csslider1 > ul {
-  position: relative;
-  z-index: 1;
-  font-size: 0;
-  line-height: 0;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  white-space: nowrap;
-}
+.slideheading{margin:0;padding-top: 148px;padding-left: 20px;}
+
 /* about us start */
 
 #aboutus{
@@ -411,7 +396,7 @@ padding-top: 0;
     #logo{
         height: 70px;
     }
-    
+
 }
 @media screen and (max-width: 690px){
     #menucontainer{
