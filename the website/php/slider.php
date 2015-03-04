@@ -3,12 +3,12 @@
        <h1 class="slideheading">Slide 1 Yooo</h1>
        <img src="../img/sliderbg/1/1.png">
    </li>
-   <li id="2" style="display:none;">
+   ="3" style="display:none;">
+     <li id="2" style="display:none;">
        <h1 class="slideheading">Slide 2 Yooo</h1>
        <img src="../img/sliderbg/2/1.png">
    </li>
-   <li id="3" style="display:none;">
-       <h1 class="slideheading">Slide 3 Yooo</h1>
+   <li id  <h1 class="slideheading">Slide 3 Yooo</h1>
        <img src="../img/sliderbg/3/2.png">
    </li>
    <li id="4" style="display:none;">
