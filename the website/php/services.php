@@ -12,7 +12,7 @@
     </ul>
     <ul class="servicecircle">
         <ul class="serviceicon"><img src="../img/services/maps.png"></ul>
-        <p class="servicetitle">Apps Development</p>
+        <p class="servicetitle">App Development</p>
         <p class="servicedescription">Visualize public data and layer it with your data to make intelligent descisions</p>
     </ul>
     <ul class="servicecircle">
@@ -22,13 +22,13 @@
     </ul>
     <ul class="servicecircle">
         <ul class="serviceicon"> <img src="../img/services/consultant.png"> </ul>
-        <p class="servicetitle"> General Consulting </p>
+        <p class="servicetitle">Network Services</p>
         <p class="servicedescription">Let us help you when it gets tricky.</p>
     </ul>
 
     <ul class="servicecircle">
         <ul class="serviceicon"> <img src="../img/services/mail.png"> </ul>
-        <p class="servicetitle">..next Robots</p>
+        <p class="servicetitle">Workshops</p>
         <p class="servicedescription">Whether it's Google services or Microsoft Exchange, we can assist you.</p>
     </ul>
 </div>

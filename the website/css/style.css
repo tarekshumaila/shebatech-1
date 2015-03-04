@@ -64,16 +64,20 @@ body{
     z-index: -1;
     top: 0px;
     overflow: hidden;
-    background-color: wheat;
+    background-color: rgb(250,250,250);
     list-style: none;
     padding-left: 0px;
+    background-image: url("../img/menu/1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 #slider li:nth-child(even) {
     background-image: url(../img/sliderbg/1.png);text-align: center;
-}
+height: 600px;}
 #slider li:nth-child(odd) {
     background-image: url(../img/sliderbg/2.png);text-align: center;
-    
+    height: 600px;
 }
 .slideheading{margin:0;padding-top: 148px;padding-left: 20px;}
 
