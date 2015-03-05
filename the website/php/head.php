@@ -8,21 +8,21 @@
 	
 	function Slider(){
 		$("#1").show("fade",2000);
-		$("#1").delay(4000).hide("slide", {direction: "left"}, 2000);
+		$("#1").delay(3000).fadeOut(2000);
 
 		var sc = $("#slider img").size();
 		var count = 2;
 
 		setInterval(function(){
-			$("#slider #"+count).delay(2000).show("fade",  2000);
-			$("#slider #"+count).delay(4000).hide("slide",{direction:"left"}, 2000);
+			$("#slider #"+count).delay(300).fadeIn(2000);
+			$("#slider #"+count).delay(3000).fadeOut(2000);
 
 			if(count == sc){
 				count = 1
 			}else{
 				count = count+1;
 			}
-		},10000);
+		},7100);
 	}
 
 </script>

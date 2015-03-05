@@ -7,6 +7,7 @@ body{
     position: relative;
     z-index: -1;
 }
+#services, #portfolio{padding-bottom: 25px;}
 #menucontainer{
     background-color: rgba(255, 255, 255, 0.8);
     position: fixed;
@@ -74,7 +75,8 @@ body{
 }
 #slider li:nth-child(even) {
     background-image: url(../img/sliderbg/1.png);text-align: center;
-height: 600px;}
+    height: 600px;
+}
 #slider li:nth-child(odd) {
     background-image: url(../img/sliderbg/2.png);text-align: center;
     height: 600px;
@@ -114,6 +116,7 @@ height: 600px;}
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 .servicecircle{
@@ -352,7 +355,7 @@ height: 600px;}
     height: 35px;
 }
 #menu ul{padding-left: 0px;}
-.mediumcontainer{max-width: 1024px}
+.mediumcontainer{max-width: 1024px;padding-bottom: 25px;}
 @media screen and (max-width: 1045px){
     #menucontainer{
         height: 80px;

@@ -1,4 +1,4 @@
-<ul class="title">
+<ul class="title centerMeInANewLine">
     <img src="img/aboutus.png" alt="about us">
 </ul>
 <ul id="pinklogo">
