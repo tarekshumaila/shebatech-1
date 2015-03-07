@@ -1,4 +1,4 @@
-<div class="mediumcontainer">
+<div class="mediumcontainer  flex justify-around wrap-wrap"">
 <div class="title centerMeInANewLine"> <img src="img/contactus.png"> </div>
 <ul id="contactussocialbuttons">
     <div class="contactusdetails"><img src="../svg/email.svg" class="contactusicon"><p>info@shebatech.com</p></div>
