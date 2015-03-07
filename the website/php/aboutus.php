@@ -3,7 +3,7 @@
 	<ul class="title centerMeInANewLine"> 
 		<img  src="img/aboutus.png"> 
 	</ul>
-	<ul id="pinklogo">
+	<ul id="pinklogo" class="centerMeInANewLine">
 	    <img src="img/logo-transparent-01.png" id="pinklogo">
 	</ul>
 	<ul id="aboutusdescription">

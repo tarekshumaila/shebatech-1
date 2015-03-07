@@ -7,7 +7,7 @@ body{
     position: relative;
     z-index: -1;
 }
-#services, #portfolio{padding-bottom: 25px;}
+#services, #portfolio{padding-bottom: 25px;min-height: 600px;}
 #menucontainer{
     background-color: rgba(255, 255, 255, 0.8);
     position: fixed;
@@ -91,6 +91,8 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 600px;
+
 }
 #pinklogo{
     width: 147px;
@@ -99,6 +101,7 @@ body{
 }
 #aboutusdescription{
     max-width: 480px;
+    max-height: 150px;
     margin: 32px auto;
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 69px;
