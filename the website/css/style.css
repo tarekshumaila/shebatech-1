@@ -139,9 +139,8 @@ text-align: center;}
 .servicetitle{
     text-align: -webkit-center;
     font-size: 19px;
-    width: 174px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .servicedescription{
     margin-top: 11px;
@@ -154,7 +153,7 @@ text-align: center;}
     text-align: center;
     padding-left: 0px;
     margin-bottom: 7px;
-    margin-top: -24px;
+    margin-top: -10px;
 }
 /* portfolio start */
 
@@ -172,10 +171,10 @@ text-align: center;}
 }
 .portfoliocircles{
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 10px 31px;
-    border-radius: 90px;
+    border-radius: 150px;
     color: white;
     padding: 39px;
     text-align: center;
@@ -185,7 +184,7 @@ text-align: center;}
 
 }
 .portfoliocircles:hover{
-    background-image: url(../img/portfolio/website%20image%20hover-02.png);
+    background-image: url(../img/portfolio/hover.png);
 }
 .port1{
     background-image: url(../img/portfolio/1.png);

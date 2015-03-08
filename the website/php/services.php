@@ -2,33 +2,33 @@
 <ul class="title centerMeInANewLine"> <img  src="img/services.png"> </ul>
     <ul class="servicecircle">
         <ul class="serviceicon"> <img src="../img/services/cloud.png"> </ul>
-        <p class="servicetitle">Website Development</p>
-        <p class="servicedescription">Serving you the best variety of offerings to meet your project needs.</p>
+        <p class="servicetitle">Websites</p>
+        <p class="servicedescription">From small scale website to large and monistorious websites, we do it all.</p>
     </ul>
     <ul class="servicecircle">
         <ul class="serviceicon"> <img src="../img/services/graphicdesign.png"> </ul>
-        <p class="servicetitle">Branding and Design</p>
-        <p class="servicedescription">Improve your corporate image with our branding and design services</p>
+        <p class="servicetitle">Design</p>
+        <p class="servicedescription">Dress your products with a creative design, giving it the right image for marketing</p>
     </ul>
     <ul class="servicecircle">
         <ul class="serviceicon"><img src="../img/services/maps.png"></ul>
-        <p class="servicetitle">App Development</p>
-        <p class="servicedescription">Visualize public data and layer it with your data to make intelligent descisions</p>
+        <p class="servicetitle">Mobile Apps</p>
+        <p class="servicedescription">Impress your clients with your innovation when it comes to Mobile Apps.</p>
     </ul>
     <ul class="servicecircle">
         <ul class="serviceicon"><img src="../img/services/webdevelopment.png"></ul>
         <p class="servicetitle">IT Support</p>
-        <p class="servicedescription">Make the website that you have been dreaming about with us</p>
+        <p class="servicedescription">You need help figuring out something? call us, lets have two brain think about it.</p>
     </ul>
     <ul class="servicecircle">
         <ul class="serviceicon"> <img src="../img/services/consultant.png"> </ul>
         <p class="servicetitle">Consulting</p>
-        <p class="servicedescription">Let us help you when it gets tricky.</p>
+        <p class="servicedescription">Are you planning for growth? Do you want to visualize how that will work?</p>
     </ul>
 
     <ul class="servicecircle">
         <ul class="serviceicon"> <img src="../img/services/mail.png"> </ul>
         <p class="servicetitle">Workshops</p>
-        <p class="servicedescription">Whether it's Google services or Microsoft Exchange, we can assist you.</p>
+        <p class="servicedescription">When new services roll-out, proper staff training helps with the learning curve.</p>
     </ul>
 </div>
