@@ -81,6 +81,11 @@ body{
 }
 .slideheading{margin:0;padding-top: 148px;padding-left: 20px;display: none;}
 #slider li img {display: none;}
+#slider li{background-repeat: no-repeat;webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+text-align: center;}
 /* about us start */
 
 #aboutus{
