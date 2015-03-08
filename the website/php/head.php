@@ -7,18 +7,36 @@
 <script type="text/javascript">
 	
 	function Slider(){
-		$("#1").show("fade",2000);
+		$("#1").fadeIn(2000);
+		$("#slider #1 h1").fadeIn(2000);
+		$("#slider #1 img").fadeIn(2000);
+
 		$("#1").delay(5000).fadeOut(2000);
 
 		var sc = $("#slider img").size();
 		var count = 2;
+		var countbg = 4;
+		var bgcount = 6;
 
 		setInterval(function(){
+			$("#slider #"+count).css("background-image","url(../img/sliderbg/"+countbg+".jpg)");
 			$("#slider #"+count).fadeIn(2000);
+			//ANIMATION
+
+			$("#slider #"+count+" h1").delay(2000).fadeIn(2000);
+			$("#slider #"+count+" img").delay(2000).fadeIn(2000);
 			$("#slider #"+count).delay(5000).fadeOut(2000);
+			$("#slider #"+count+" h1").delay(2000).fadeOut(2000);
+			$("#slider #"+count+" img").delay(2000).fadeOut(2000);
+
+			if(countbg == bgcount){
+				countbg = 3;
+			}else{
+				countbg = countbg+1;
+			}
 
 			if(count == sc){
-				count = 1
+				count = 1;
 			}else{
 				count = count+1;
 			}

@@ -17,12 +17,12 @@
     </ul>
     <ul class="servicecircle">
         <ul class="serviceicon"><img src="../img/services/webdevelopment.png"></ul>
-        <p class="servicetitle">Web Development</p>
+        <p class="servicetitle">IT Support</p>
         <p class="servicedescription">Make the website that you have been dreaming about with us</p>
     </ul>
     <ul class="servicecircle">
         <ul class="serviceicon"> <img src="../img/services/consultant.png"> </ul>
-        <p class="servicetitle">Network Services</p>
+        <p class="servicetitle">Consulting</p>
         <p class="servicedescription">Let us help you when it gets tricky.</p>
     </ul>
 
