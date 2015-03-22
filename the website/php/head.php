@@ -9,36 +9,25 @@
 <script type="text/javascript">
 
 	function Slider(){
+		
+
+		
+
 		$("#1").fadeIn(2000);
-		$("#slider #1 h1").fadeIn(2000);
-		$("#slider #1 img").fadeIn(2000);
 		$("#1").delay(5000).fadeOut(2000);
 
 		var count = 2;
 		var slides = 4
-		var countbg = 2;
-		var bgcount = 4;
-
-
-
 
 		setInterval(function(){
-			$("#slider #"+count).css("background-image","url(../img/sliderbg/"+countbg+".jpg)");
-			
 			$("#slider #"+count).fadeIn(2000);
-			$("#slider #"+count+" h1").delay(2000).fadeIn(2000);
-			$("#slider #"+count+" img").delay(2000).fadeIn(2000);
 			
 			$("#slider #"+count).delay(5000).fadeOut(2000);
-			$("#slider #"+count+" h1").delay(2000).fadeOut(2000);
-			$("#slider #"+count+" img").delay(2000).fadeOut(2000);
 
 			if(count == slides){
 				count = 1;
-				countbg = 1;
 			}else{
 				count = count+1;
-				countbg = countbg+1;
 			}
 		},9200);
 	}

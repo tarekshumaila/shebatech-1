@@ -7,6 +7,10 @@ body{
     position: relative;
     z-index: -1;
 }
+.uno{background: url(../img/sliderbg/1.png) no-repeat center center;}
+.dos{background: url(../img/sliderbg/2.png) no-repeat center center;}
+.tres{background: url(../img/sliderbg/3.png) no-repeat center center;}
+.qttro{background: url(../img/sliderbg/4.png) no-repeat center center;}
 #services, #portfolio{padding-bottom: 25px;min-height: 600px;}
 #menucontainer{
     background-color: rgba(255, 255, 255, 0.8);
@@ -53,7 +57,6 @@ body{
     line-height: 150px;
     font-size: 18px;
 }
-.menu:hover{font-size: 23px;}
 
 /* slides start */
 
@@ -68,7 +71,6 @@ body{
     background-color: rgb(250,250,250);
     list-style: none;
     padding-left: 0px;
-    background-image: url("./img/sliderbg/3.jpg");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -360,6 +362,8 @@ text-align: center;}
 }
 #menu ul{padding-left: 0px;}
 .mediumcontainer{max-width: 1024px;padding-bottom: 25px;}
+
+
 @media screen and (max-width: 1045px){
     #menucontainer{
         height: 80px;

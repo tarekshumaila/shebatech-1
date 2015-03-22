@@ -17,4 +17,12 @@
     <p class="portfoliotitle"> Amideast - Mindmap</p>
     <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
 </ul>
+<ul class="portfoliocircles">
+    <p class="portfoliotitle"> Amideast - Mindmap</p>
+    <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+</ul>
+<ul class="portfoliocircles">
+    <p class="portfoliotitle"> Amideast - Mindmap</p>
+    <a href="#" class="btnlink"><ul class="portfoliobtn">take a look</ul></a>
+</ul>
 </div>
